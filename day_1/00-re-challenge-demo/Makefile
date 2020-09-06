@@ -1,2 +1,2 @@
-demo00: demo00.c
-	gcc -o demo00 demo00.c -O0 -no-pie 
+program: program.c
+	gcc -o program program.c -O0 -no-pie 

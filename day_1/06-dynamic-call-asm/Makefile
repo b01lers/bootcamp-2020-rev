@@ -1,6 +1,6 @@
-program: program.c lib.a
+program: program.c liblib.so
 	gcc -L . -o program program.c -llib -O0 -s
 
-lib.a: lib.c
+liblib.so: lib.c
 	gcc -c -fPIC lib.c -o lib.o
 	gcc -shared -o liblib.so lib.o

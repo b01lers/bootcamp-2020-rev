@@ -1,4 +1,4 @@
-all: demo01
+all: program
 
-demo01: demo01.c
-	gcc -o demo01 demo01.c -fno-pie -fno-pic -g -O0
+program: program.c
+	gcc -o program program.c -no-pie -g -O0

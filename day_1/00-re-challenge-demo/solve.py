@@ -2,7 +2,7 @@ import gdb
 import shlex
 
 GUESSES = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_{}"
-GOOD = 0x00000000004012ec
+GOOD = 0x00000000004012ec # replace me with the address of `call scream_abuse`
 
 gdb.execute("file demo00")
 gdb.execute("set print inferior-events off")
